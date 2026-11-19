@@ -1,7 +1,5 @@
 # AFL 2 - Secure Chat Application
 
-This project contains my implementation of the AFL 2 Secure Chat Application assignment.
-
 ## Project Parts
 
 ### Part 1 - Basic Chat Application
