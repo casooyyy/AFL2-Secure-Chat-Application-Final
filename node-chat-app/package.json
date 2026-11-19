@@ -1,0 +1,22 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:malicious": "node malicious-server.js",
+    "client": "node client.js",
+    "check": "node --check server.js && node --check malicious-server.js && node --check client.js && node --check client-part3-backup.js",
+    "test": "npm run check",
+    "client:impersonation": "node client-part3-backup.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "socket.io": "^4.8.4",
+    "socket.io-client": "^4.8.4"
+  }
+}
